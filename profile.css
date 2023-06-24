@@ -3,6 +3,14 @@ body {
     color: rgb(37, 51, 57);
 }
 /* profile main header */
+.no-underline:hover {
+    text-decoration: none;
+  }
+@media print {
+    a {
+      text-decoration: none !important;
+    }
+  }  
 .profilepic {
     width: 100%;
     height: auto;
@@ -10,7 +18,6 @@ body {
     background-blend-mode: color-burn;
 }
 .profile-pic-bg {
-    background-color: rgb(37, 51, 57);
     padding: 0;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -23,7 +30,7 @@ body {
 }
 
 .introduction {
-    background-color: rgb(37, 51, 57);
+    background-image: url('https://www.sectigo.com/uploads/resource-images/dots-1.png');
     height: auto;
     border-top-left-radius: 10px;
 }
@@ -171,8 +178,8 @@ body {
 }
 
 .bg-area {
-    background: #00b373;
-
+    color: rgb(37, 51, 57);
+    font-weight: bold;
 }
 
 .bg-area p {
@@ -182,27 +189,33 @@ body {
 }
 
 .bar95 {
+    background: #00b373;
     width: 95%;
 }
 
 .bar90 {
+    background: #00b373;
     width: 90%;
 
 }
 
 .bar70 {
+    background: #b2ee2f;
     width: 70%;
 }
 
 .bar40 {
+    background: #e9ef34;
     width: 40%;
 }
 
 .bar50 {
+    background: #b5ed3c;
     width: 50%;
 }
 
 .bar30 {
+    background: #e9ef34;
     width: 30%;
 }
 
