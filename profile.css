@@ -45,20 +45,23 @@ body {
 }
 
 .profile-details h1 {
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 .profile-details a {
-    font-size: 15px;
+    font-size: 1.2vw;
     padding-left: 10px;
 }
 
 .profile-details p {
-    font-size: 15px;
+    font-size: 1.2vw;
     text-align: justify;
-    padding-ri ght: 150px;
 }
 
+.profile-details li {
+    font-size: 1.2vw;
+    text-align: justify;
+}
 .name {
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -100,11 +103,11 @@ body {
     padding-top: 20px;
     font-weight: light;
     margin-bottom: 10px;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 .content-area-heading span {
-    font-size: 22px;
+    font-size: 1.8vw;
     font-style: italic;
     font-weight: lighter;
 }
@@ -121,12 +124,13 @@ body {
 }
 
 .content-area-description {
+    font-size: 1.2vw;
     text-align: justify;
     text-justify: inter-word;
 }
 
 .profile-heading {
-    font-size: 20px;
+    font-size: 1.8vwx;
     padding-bottom: 0;
     letter-spacing: 2px;
 
@@ -134,10 +138,12 @@ body {
 }
 
 .college {
+    font-size: 1.8vw;
     font-style: italic;
 }
 
 .college-details {
+    font-size: 1.4vw;
     padding-right: 5px;
     text-align: left !important;
 }
