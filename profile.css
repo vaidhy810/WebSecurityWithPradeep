@@ -109,7 +109,7 @@ body {
 .content-area-heading span {
     font-size: 1.8vw;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .content-Horizontal {
@@ -126,7 +126,6 @@ body {
 .content-area-description {
     font-size: 1.2vw;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .profile-heading {

@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  
   <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Resume</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -109,22 +114,22 @@
           </ul>
           <h1 class="content-area-heading">Key Skills and Achievements:</h1>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Leadership:</span> Successfully managed and supervised multiple teams, fostering a positive work environment, and motivating team members to achieve targets and deliver outstanding customer service.
+            <span>Leadership:</span> Successfully managed and supervised multiple teams, fostering a positive work environment, and motivating team members to achieve targets and deliver outstanding customer service.
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Relationship Building:</span> Built and nurtured strong relationships with customers, ensuring their needs were met, concerns were addressed, and trust was established.
+            <span>Relationship Building:</span> Built and nurtured strong relationships with customers, ensuring their needs were met, concerns were addressed, and trust was established.
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Problem Solving:</span> Resolved complex issues by analyzing situations, identifying root causes, and implementing effective solutions, resulting in improved customer satisfaction and retention.
+            <span>Problem Solving:</span> Resolved complex issues by analyzing situations, identifying root causes, and implementing effective solutions, resulting in improved customer satisfaction and retention.
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Team Management:</span> Led and coached teams to enhance their skills, productivity, and overall performance, resulting in increased efficiency and customer satisfaction ratings.
+            <span>Team Management:</span> Led and coached teams to enhance their skills, productivity, and overall performance, resulting in increased efficiency and customer satisfaction ratings.
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Communication:</span> Demonstrated excellent communication skills in providing clear instructions, conveying expectations, and effectively addressing customer inquiries and concerns.
+            <span>Communication:</span> Demonstrated excellent communication skills in providing clear instructions, conveying expectations, and effectively addressing customer inquiries and concerns.
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Operational Excellence:</span> Streamlined processes, implemented quality control measures, and utilized resources efficiently to optimize team performance and meet organizational objectives.
+            <span>Operational Excellence:</span> Streamlined processes, implemented quality control measures, and utilized resources efficiently to optimize team performance and meet organizational objectives.
           </p>
         </div>
         <div class="col-12">
@@ -221,10 +226,10 @@
           </ul>
           <h1 class="content-area-heading">Key Skills and Achievements:</h1>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Consistently performed to set Benchmarks:</span> Achieved and maintained performance benchmarks in all areas, including speed, customer satisfaction, and volume. Consistent in demonstrating efficiency and effectiveness in handling a high workload. 
+            <span>Consistently performed to set Benchmarks:</span> Achieved and maintained performance benchmarks in all areas, including speed, customer satisfaction, and volume. Consistent in demonstrating efficiency and effectiveness in handling a high workload. 
           </p>
           <p class="content-area-description">
-            <span style="font-weight: bold;">Innovative Contribution:</span> Received appreciation from the Manager for being innovative in creating HTML pages that streamlined validation and technical support source management and provided useful tools in a centralized location. This initiative improved efficiency within the team.
+            <span>Innovative Contribution:</span> Received appreciation from the Manager for being innovative in creating HTML pages that streamlined validation and technical support source management and provided useful tools in a centralized location. This initiative improved efficiency within the team.
           </p>
         </div>
         <div class="col-12">
@@ -233,4 +238,21 @@
 
       </div>
     </div>
+    <script>
+      // Function to set a cookie with the SameSite attribute
+      function setCookieWithSameSite(name, value, days, sameSite, secure) {
+        let cookieString = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+        let expires = new Date();
+        expires.setDate(expires.getDate() + days);
+        cookieString += "; expires=" + expires.toUTCString();
+        cookieString += "; SameSite=" + sameSite;
+        if (secure) {
+          cookieString += "; Secure";
+        }
+        document.cookie = cookieString;
+      }
+  
+      // Example usage to set a cookie with SameSite=None and Secure
+      setCookieWithSameSite("cookieName", "cookieValue", 7, "None", true);
+    </script>
   </body>
